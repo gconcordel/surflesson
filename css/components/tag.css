@@ -1,0 +1,24 @@
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.tag-debutant {
+  background: rgba(60, 157, 143, 0.15);
+  color: #24705f;
+}
+
+.tag-intermediaire {
+  background: rgba(19, 80, 107, 0.12);
+  color: var(--ocean);
+}
+
+.tag-expert {
+  background: rgba(226, 89, 58, 0.14);
+  color: #b8432a;
+}

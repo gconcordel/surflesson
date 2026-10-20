@@ -1,0 +1,27 @@
+:root {
+  /* Couleurs */
+  --ink: #0e2633;
+  --ink-deep: #0a1c26;
+  --ocean: #13506b;
+  --seafoam: #3c9d8f;
+  --coral: #e2593a;
+  --coral-dark: #c94a2e;
+  --sand: #e9dcc3;
+  --foam: #f7f3ea;
+  --white: #ffffff;
+  --muted: #5d7380;
+  --line: #eee5d3;
+
+  /* Typographie */
+  --font-title: "Fraunces", Georgia, serif;
+  --font-body: "Karla", Helvetica, Arial, sans-serif;
+
+  /* Formes */
+  --radius: 14px;
+  --radius-pill: 999px;
+  --shadow: 0 10px 30px rgba(14, 38, 51, 0.12);
+  --shadow-hover: 0 18px 40px rgba(14, 38, 51, 0.22);
+
+  /* Animations */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

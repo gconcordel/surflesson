@@ -1,0 +1,31 @@
+.avatar {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-large {
+  width: 88px;
+  height: 88px;
+}
+
+/* Avatar sans photo */
+.avatar-initials {
+  display: grid;
+  place-items: center;
+  font-family: var(--font-title);
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--white);
+  background: var(--seafoam);
+}
+
+.avatar-coral {
+  background: var(--coral);
+}
+
+.avatar-ocean {
+  background: var(--ocean);
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Spots de surf en France, du Pays basque au Cotentin, et leçons avec des moniteurs locaux."
+    >
+    <title>Houle · Les spots de surf en France</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand">Houle</a>
+
+        <ul class="navbar-links">
+          <li><a href="#spots" class="navbar-link">Spots</a></li>
+          <li><a href="#moniteurs" class="navbar-link">Moniteurs</a></li>
+          <li><a href="#lecon" class="btn btn-primary btn-small">Réserver</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <header class="banner">
+      <div class="container">
+        <p class="eyebrow">Atlantique · Manche · Pays basque</p>
+        <h1>Les vagues de France, <em>spot par spot</em></h1>
+        <h2>
+          Huit spots choisis par des surfeurs locaux, du beach break pour débuter
+          aux récifs qui ne se réveillent qu'en hiver.
+        </h2>
+
+        <div class="banner-actions">
+          <a href="#spots" class="btn btn-primary">Voir les spots</a>
+          <a href="#lecon" class="btn btn-ghost">Prendre une leçon</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Chiffres -->
+    <section class="stats">
+      <div class="container">
+        <ul class="stats-list">
+          <li>
+            <strong>8</strong>
+            <span>spots sélectionnés sur trois façades</span>
+          </li>
+          <li>
+            <strong>3</strong>
+            <span>niveaux, du premier take-off au gros surf</span>
+          </li>
+          <li>
+            <strong>12</strong>
+            <span>mois de vagues sur la côte</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Spots -->
+    <section class="section spots" id="spots">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Les spots</p>
+            <h2>Où surfer cette saison</h2>
+          </div>
+
+          <div class="filters">
+            <input type="radio" name="level" id="filter-all" class="filter-input" checked>
+            <label for="filter-all" class="filter">Tous</label>
+
+            <input type="radio" name="level" id="filter-debutant" class="filter-input">
+            <label for="filter-debutant" class="filter">Débutant</label>
+
+            <input type="radio" name="level" id="filter-intermediaire" class="filter-input">
+            <label for="filter-intermediaire" class="filter">Intermédiaire</label>
+
+            <input type="radio" name="level" id="filter-expert" class="filter-input">
+            <label for="filter-expert" class="filter">Expert</label>
+          </div>
+        </div>
+
+        <div class="cards">
+          <article class="card card-featured" data-level="expert">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=1200&q=70"
+                alt="Surfeur dans une vague creuse"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Hossegor · Landes</span>
+                <span class="tag tag-expert">Expert</span>
+              </div>
+
+              <h3>La Gravière</h3>
+              <p>
+                Un des beach breaks les plus puissants d'Europe. Des tubes creux et rapides
+                sur un banc de sable qui se redessine à chaque tempête.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Automne</li>
+                <li><span>Fond</span>Sable</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="debutant">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=70"
+                alt="Plage et vagues douces"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Biarritz · Pays basque</span>
+                <span class="tag tag-debutant">Débutant</span>
+              </div>
+
+              <h3>Côte des Basques</h3>
+              <p>
+                Le berceau du surf en France. Une vague longue et douce au pied des falaises,
+                idéale en longboard.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Printemps, été</li>
+                <li><span>Fond</span>Sable, roche</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="expert">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=70"
+                alt="Grosse houle qui déferle"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Guéthary · Pays basque</span>
+                <span class="tag tag-expert">Expert</span>
+              </div>
+
+              <h3>Parlementia</h3>
+              <p>
+                Une droite de récif qui ne se réveille qu'avec les grosses houles d'hiver.
+                Longue, épaisse, réservée aux confirmés.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Récif</li>
+                <li><span>Saison</span>Hiver</li>
+                <li><span>Fond</span>Roche</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="intermediaire">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=70"
+                alt="Longue plage de sable"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Lacanau · Gironde</span>
+                <span class="tag tag-intermediaire">Intermédiaire</span>
+              </div>
+
+              <h3>Lacanau Océan</h3>
+              <p>
+                Des kilomètres de beach breaks et des pics pour tout le monde.
+                Ambiance station l'été, plus sauvage en septembre.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Fin d'été</li>
+                <li><span>Fond</span>Sable</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="debutant">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=800&q=70"
+                alt="Baie vue du ciel"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Plomeur · Finistère</span>
+                <span class="tag tag-debutant">Débutant</span>
+              </div>
+
+              <h3>La Torche</h3>
+              <p>
+                Le cœur du surf breton. Une grande baie bien exposée à la houle,
+                avec de la place pour apprendre.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Automne</li>
+                <li><span>Fond</span>Sable</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="intermediaire">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1530053969600-caed2596d242?w=800&q=70"
+                alt="Surfeur sur une vague"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Anglet · Pays basque</span>
+                <span class="tag tag-intermediaire">Intermédiaire</span>
+              </div>
+
+              <h3>Les Cavaliers</h3>
+              <p>
+                Des bancs calés par les digues qui donnent des vagues creuses et régulières.
+                Spot de compétition, souvent du monde.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Automne</li>
+                <li><span>Fond</span>Sable</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card card-wide" data-level="expert">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=1000&q=70"
+                alt="Vague géante au large"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Urrugne · Pays basque</span>
+                <span class="tag tag-expert">Expert</span>
+              </div>
+
+              <h3>Belharra</h3>
+              <p>
+                Une vague géante sur un haut-fond à environ 2 km de la côte.
+                Elle ne casse que quelques jours par an, et se surfe en tow-in.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Récif au large</li>
+                <li><span>Saison</span>Hiver</li>
+                <li><span>Fond</span>Roche</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card" data-level="debutant">
+            <div class="card-img">
+              <img
+                src="https://images.unsplash.com/photo-1509914398892-963f53e6e2f1?w=800&q=70"
+                alt="Surfeur sur une plage du nord"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="card-body">
+              <div class="card-top">
+                <span class="card-region">Siouville · Manche</span>
+                <span class="tag tag-debutant">Débutant</span>
+              </div>
+
+              <h3>Siouville-Hague</h3>
+              <p>
+                Le spot phare du Cotentin. Eau fraîche, peu de monde
+                et une vague accessible pour progresser.
+              </p>
+
+              <ul class="card-infos">
+                <li><span>Vague</span>Beach break</li>
+                <li><span>Saison</span>Automne, hiver</li>
+                <li><span>Fond</span>Sable</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Moniteurs -->
+    <section class="section team" id="moniteurs">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">L'équipe</p>
+            <h2>Des moniteurs qui surfent leur spot</h2>
+          </div>
+
+          <p class="lead">
+            Chaque moniteur donne ses cours sur le spot qu'il connaît le mieux, toute l'année.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="avatar avatar-large avatar-initials">M</div>
+            <div>
+              <h3>Maïa Etchegaray</h3>
+              <p>Côte des Basques · longboard</p>
+            </div>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar avatar-large avatar-initials avatar-ocean">Y</div>
+            <div>
+              <h3>Yann Le Goff</h3>
+              <p>La Torche · initiation</p>
+            </div>
+          </div>
+
+          <div class="team-member">
+            <div class="avatar avatar-large avatar-initials avatar-coral">I</div>
+            <div>
+              <h3>Inès Darrigade</h3>
+              <p>Hossegor · perfectionnement</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leçon -->
+    <section class="section lesson" id="lecon">
+      <div class="container lesson-grid">
+        <div class="lesson-intro">
+          <p class="eyebrow">Leçons</p>
+          <h2>Ta première vague, ou la prochaine</h2>
+          <p>
+            Cours particuliers ou en petit groupe, planche et combinaison fournies.
+            Remplis le formulaire, on te recontacte sous 48 h avec un créneau.
+          </p>
+        </div>
+
+        <ol class="lesson-steps">
+          <li>
+            <div>
+              <strong>Choisis ton spot</strong>
+              <span>Selon ton niveau et la saison.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>On cale un créneau</strong>
+              <span>En fonction de la marée et de la houle.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>Tu surfes</strong>
+              <span>1 h 30 à l'eau, débrief compris.</span>
+            </div>
+          </li>
+        </ol>
+
+        <div class="lesson-form">
+          <div data-tf-live="01M5CBFTZEHJVTWANJJNQYPA6H"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="navbar-brand">Houle</a>
+        <a href="#" class="footer-top">Haut de page ↑</a>
+      </div>
+    </footer>
+
+    <!-- Typeform -->
+    <script src="https://embed.typeform.com/next/embed.js"></script>
+  </body>
+</html>

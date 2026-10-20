@@ -1,0 +1,23 @@
+.section {
+  padding: 96px 0;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.section-head h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 64px 0;
+  }
+}

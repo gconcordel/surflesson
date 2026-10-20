@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=Karla:wght@400;500;700&display=swap");
+
+/* Base */
+@import url("base/variables.css");
+@import url("base/reset.css");
+@import url("base/typography.css");
+
+/* Layout */
+@import url("layout/container.css");
+@import url("layout/section.css");
+@import url("layout/footer.css");
+
+/* Composants */
+@import url("components/navbar.css");
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/tag.css");
+@import url("components/banner.css");
+@import url("components/stats.css");
+@import url("components/filters.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/team.css");
+@import url("components/lesson.css");

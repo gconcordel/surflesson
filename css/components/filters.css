@@ -1,0 +1,33 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Radio caché, seul le label est visible */
+.filter-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.filter {
+  padding: 9px 18px;
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.filter:hover,
+.filter-input:checked + .filter {
+  background: var(--ink);
+  color: var(--foam);
+}
+
+.filter-input:focus-visible + .filter {
+  outline: 2px solid var(--coral);
+  outline-offset: 3px;
+}
